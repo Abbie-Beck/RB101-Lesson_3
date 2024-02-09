@@ -1,0 +1,12 @@
+# Lets take a look at another example with a small difference in the code:
+
+a = 42
+b = 42
+c = a 
+
+puts a.object_id
+puts b.object_id
+puts c.object_id
+
+# all same, numbers always have same object id as numbers of same
+# value because numbers are immutable
