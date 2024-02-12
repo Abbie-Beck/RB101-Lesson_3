@@ -1,5 +1,3 @@
-# What is the result of the last line in the code below?
-
 greetings = { a: 'hi' }
 informal_greeting = greetings[:a] #.clone to make copy
 informal_greeting << ' there'

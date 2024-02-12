@@ -1,9 +1,3 @@
-=begin
-To drive that last one home...let's turn the tables and have the 
-string show a modified output, while the array thwarts the method's 
-efforts to modify the user's version of it.
-=end 
-
 def tricky_method_two(a_string_param, an_array_param)
   a_string_param << 'rutabaga'
   an_array_param = ['pumpkins', 'rutabaga']

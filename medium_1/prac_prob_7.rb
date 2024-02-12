@@ -1,10 +1,3 @@
-=begin
-
-One day Spot was playing with the Munster family's home computer and he wrote 
-a small program to mess with their demographic data:
-
-=end 
-
 munsters = {
   "Herman" => { "age" => 32, "gender" => "male" },
   "Lily" => { "age" => 30, "gender" => "female" },
@@ -19,9 +12,6 @@ def mess_with_demographics(demo_hash)
     family_member["gender"] = "other"
   end
 end
-
-# After writing this method, he typed the following...and before Grandpa 
-# could stop him, he hit the Enter key with his tail:
 
 mess_with_demographics(munsters)
 

@@ -1,5 +1,3 @@
-# What is the output of the following code?
-
 answer = 42
 
 def mess_with_it(some_number)

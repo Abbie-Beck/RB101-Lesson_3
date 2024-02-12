@@ -1,5 +1,3 @@
-# Study the following code and state what will be displayed...and why:
-
 def tricky_method(string_param_one, string_param_two)
   string_param_one += "rutabaga"
   string_param_two << "rutabaga"

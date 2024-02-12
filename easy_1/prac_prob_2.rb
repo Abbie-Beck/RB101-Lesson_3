@@ -1,20 +1,5 @@
 =begin
 
-Describe the difference between ! and ? in Ruby. And 
-explain what would happen in the following scenarios:
-
-what is != and where should you use it?
-put ! before something, like !user_name
-put ! after something, like words.uniq!
-put ? before something
-put ? after something
-put !! before something, like !!user_name
-
-=end
-
-
-=begin
-
 `!` or the `bang` operator indicates that a method is destructive
 some methods have this operator appended to them which automatically makes
 them into destructive methods, like `uniq` vs `uniq!`
